@@ -69,7 +69,7 @@ class GoogleMapField extends FormField
     }
 
     // Auto generate a name
-    public function getName()
+    public function getName(): string
     {
         $fieldNames = $this->getOption('field_names');
         return sprintf(
